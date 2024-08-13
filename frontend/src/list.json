@@ -1,0 +1,186 @@
+[
+  
+    {
+      "id": 1,
+      "name": "Shoes",
+      "title": "Casual Shoes",
+      "price": 0,
+      "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+      "category": "Free",
+      "description": "This is a brief description of Shoes."
+    },
+    {
+      "id": 2,
+      "name": "Biscuit",
+      "title": "Tasty Biscuit",
+      "price": 0,
+      "image": "https://img.freepik.com/free-photo/top-view-delicious-snack-homemade-cookies_114579-88457.jpg?t=st=1723404697~exp=1723408297~hmac=36dde246609bb5fa910b51a2202348054e548a971280f6dcfa785c7f2fef34a4&w=740",
+      "category": "Free",
+      "description": "This is a brief description of Biscuit."
+    },
+    {
+      "id": 3,
+      "name": "Book",
+      "title": "Reading Book",
+      "price": 0,
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1723404750~exp=1723408350~hmac=61284742df070d10c9b06ca39dae712bafec4253c580b390b21d56bbe11b8df4&w=740",
+      "category": "Free",
+      "description": "This is a brief description of Book."
+    },
+    {
+      "id": 4,
+      "name": "Hat",
+      "title": "Stylish Hat",
+      "price": 0,
+      "image": "https://img.freepik.com/free-vector/hand-drawn-bucket-hat-illustration_23-2151142343.jpg?t=st=1723405144~exp=1723408744~hmac=56f0fe71af278421fdfe585f78c4b7ba2585320e497fdf90836310343732cdc5&w=740",
+      "category": "Free",
+      "description": "This is a brief description of Hat."
+    },
+    {
+      "id": 5,
+      "name": "Mug",
+      "title": "Coffee Mug",
+      "price": 0,
+      "image": "https://img.freepik.com/free-psd/two-mugs-green-background-mock-up_1307-199.jpg?t=st=1723405183~exp=1723408783~hmac=15710d2595889862523c390af6d2cb80aaacbbfcdba0d12c6a007ec023c0b99e&w=740",
+      "category": "Free",
+      "description": "This is a brief description of Mug."
+    },
+    {
+      "id": 6,
+      "name": "Pen",
+      "title": "Ink Pen",
+      "price": 0,
+      "image": "https://img.freepik.com/free-photo/3d-rendering-pen-with-envelope_23-2150851422.jpg?t=st=1723405841~exp=1723409441~hmac=c4ba71f78e60b11f55729050904ded13f7317a9cba7e45e5d11ae01efba7c3b3&w=740",
+      "category": "Free",
+      "description": "This is a brief description of Pen."
+    },
+    {
+      "id": 7,
+      "name": "Notebook",
+      "title": "Note Book",
+      "price": 0,
+      "image": "https://img.freepik.com/premium-photo/blue-notebook-with-flowers-pen-it_1032785-21544.jpg?w=740",
+      "category": "Free",
+      "description": "This is a brief description of Notebook."
+    },
+    {
+      "id": 8,
+      "name": "Keychain",
+      "title": "Key Chain",
+      "price": 0,
+      "image": "https://mygiftstory.com/wp-content/uploads/2021/06/Arcylic-keychain-01.jpg",
+      "category": "Free",
+      "description": "This is a brief description of Keychain."
+    },
+  {
+    "id": 9,
+    "name": "Shoes",
+    "title": "Running Shoes",
+    "price": 59.99,
+    "image": "https://img.freepik.com/free-psd/shoes-sale-social-media-post-square-banner-template-design_505751-2904.jpg?t=st=1723534867~exp=1723538467~hmac=8519e5fc48f4dd1a5ccc7e9a8c021f040115115fa6bacf434df48ab7ed828d5f&w=740",
+    "category": "Shoes",
+    "description": "High-quality running shoes for your workouts."
+  },
+  {
+    "id": 10,
+    "name": "Ball",
+    "title": "Basketball",
+    "price": 29.99,
+    "image": "https://img.freepik.com/free-photo/basketball-game-concept_23-2150910668.jpg?t=st=1723535171~exp=1723538771~hmac=4d29de2e8f58cc8c16215d806c78da1ec1377f6245754afad7a5b25a3bbd86a5&w=740",
+    "category": "Sports",
+    "description": "Durable basketball for professional play."
+  },
+  {
+    "id": 11,
+    "name": "Bag",
+    "title": "Grocery Bag",
+    "price": 5.99,
+    "image": "https://img.freepik.com/free-photo/levitating-women-s-bag-display_23-2149817600.jpg?t=st=1723535192~exp=1723538792~hmac=0d0f185c432fbdb2bcbdd44dc3634dd14299e4aa28383fb84129411ce33fb0ff&w=740",
+    "category": "Grocery",
+    "description": "Eco-friendly reusable bag for shopping."
+  },
+  {
+    "id": 12,
+    "name": "Mat",
+    "title": "Yoga Mat",
+    "price": 19.99,
+    "image": "https://img.freepik.com/premium-photo/modern-adjustable-yoga-practice-gear_971989-19686.jpg?w=740",
+    "category": "Sports",
+    "description": "Non-slip mat for yoga and exercise."
+  },
+  {
+    "id": 13,
+    "name": "Jacket",
+    "title": "Winter Jacket",
+    "price": 89.99,
+    "image": "https://img.freepik.com/premium-photo/front-view-modern-baseball-bomber-jacket-3d-mockup_925613-26227.jpg?w=740",
+    "category": "Clothing",
+    "description": "Insulated jacket to keep you warm in winter."
+  },
+  {
+    "id": 14,
+    "name": "Headphones",
+    "title": "Bluetooth Headphones",
+    "price": 49.99,
+    "image": "https://img.freepik.com/free-photo/black-headphones-digital-device_53876-97302.jpg?t=st=1723534999~exp=1723538599~hmac=555c882493a7264cf2579fdf77b678a9a3573dcefd97991cd5470420008fda4a&w=740",
+    "category": "Electronics",
+    "description": "High-quality wireless headphones with noise cancellation."
+  },
+  {
+    "id": 15,
+    "name": "Blender",
+    "title": "Kitchen Blender",
+    "price": 79.99,
+    "image": "https://img.freepik.com/premium-photo/blender-with-fruit-glass-juice-it_1121404-32505.jpg?w=740",
+    "category": "Appliances",
+    "description": "Blender for making smoothies and sauces."
+  },
+  {
+    "id": 16,
+    "name": "Tracker",
+    "title": "Fitness Tracker",
+    "price": 39.99,
+    "image": "https://img.freepik.com/free-vector/workout-tracker-app-interface_23-2148655435.jpg?t=st=1723535398~exp=1723538998~hmac=54a80c81e0580755e2f6ea8ccc8f032b7d1152dade85fde9f6ec1451e0b12b0b&w=740",
+    "category": "Electronics",
+    "description": "Track your workouts and health metrics."
+  },
+  {
+    "id": 17,
+    "name": "Cookware",
+    "title": "Cookware Set",
+    "price": 99.99,
+    "image": "https://img.freepik.com/premium-photo/cookware_1295979-2034.jpg?w=826",
+    "category": "Appliances",
+    "description": "Complete set of non-stick cookware for your kitchen."
+  },
+  {
+    "id": 18,
+    "name": "Camera",
+    "title": "Digital Camera",
+    "price": 299.99,
+    "image": "https://img.freepik.com/free-photo/camera-photographic-equipment-lens-technology-generative-ai_188544-19482.jpg?t=st=1723535475~exp=1723539075~hmac=8415884efb74e1a5c7210714ccab18deedd522c67e0fe296f69d784869b0155f&w=740",
+    "category": "Electronics",
+    "description": "High-resolution camera for capturing your moments."
+  },
+  {
+    "id": 19,
+    "name": "Glasses",
+    "title": "Sunglasses",
+    "price": 15.99,
+    "image": "https://img.freepik.com/free-photo/stunning-sensual-woman-portrait-wearing-silver-sunglasses_291049-1416.jpg?t=st=1723535517~exp=1723539117~hmac=41d4c941955a2ab699458cbd1141f72fa3de3a17f56f305ab9f703ae870e8f59&w=740",
+    "category": "Accessories",
+    "description": "Fashionable sunglasses to protect your eyes from the sun."
+  },
+  {
+    "id": 20,
+    "name": "Lamp",
+    "title": "Desk Lamp",
+    "price": 24.99,
+    "image": "https://img.freepik.com/free-photo/desk-lamp-notebook-arrangement_23-2148745828.jpg?t=st=1723535597~exp=1723539197~hmac=4d66820c70e527a2dc016a4b95d5f05b06fa4f65495b7c6034f5ec2b027ad65b&w=740",
+    "category": "Appliances",
+    "description": "Adjustable LED desk lamp for better lighting."
+  }
+]
+
+   
+  
