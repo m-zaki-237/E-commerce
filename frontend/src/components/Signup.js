@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import backgroundImage from '../images/bg.png';
 import Login from './Login';
 import { useForm } from 'react-hook-form';
+import axios from 'axios'
+import toast from 'react-hot-toast';
+
 
 const Signup = () => {
     const {
@@ -10,7 +13,24 @@ const Signup = () => {
         handleSubmit,
         formState: { errors },
       } = useForm();
-      const onSubmit = (data) => console.log(data);
+
+      const onSubmit = async (data) => {
+        const userInfo = {
+          name:data.name,
+          email:data.email,
+          password:data.password
+        }
+        await axios.post("http://localhost:6900/user/signup",userInfo)
+        .then((res)=>{
+          console.log(res.data); 
+          if(res.data){
+            toast.success('Successfully Logged in!');
+          }
+          localStorage.setItem("Users",JSON.stringify(res.data.user))
+        }).catch((err)=>{
+          toast.error('error Logging in: ' + err.response.data.message); 
+        })
+      };
     
   return (
     <>

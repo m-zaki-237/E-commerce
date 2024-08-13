@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-zaki-237/e-commerce.git"
+  },
+  "author": "Muhammad Zakria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-zaki-237/e-commerce/issues"
+  },
+  "homepage": "https://github.com/m-zaki-237/e-commerce#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from './Card'
-import list from '../list.json'
-
+import axios from 'axios'
 const Products = () => {
+
+    const [product, setProduct] = useState([])
+
+    useEffect(()=>{
+        const getProduct = async () => {
+            try{
+             const response =  await  axios.get("http://localhost:6900/products")
+             console.log(response.data);
+             setProduct(response.data)
+            } catch (error) {
+                console.log(error);
+                
+            }
+        }
+        getProduct()
+    },[])
+
   return (
     <>
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
@@ -12,7 +28,7 @@ const Products = () => {
         </div>
         <div className='mt-12 grid grid-cols-1 md:grid-cols-4'>
             {
-                list.map((item)=>(
+                product.map((item)=>(
                     <Card key={item.id} item={item}/>
                 ))
             }
